@@ -1,0 +1,99 @@
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    font-family: "Georgia", serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: #fffdfd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+
+  p {
+    font-weight: bold;
+    text-align: left;
+    font-family:cursive;
+    font-size: 20px;
+    line-height: 2.5;
+    background: linear-gradient(to bottom, #ece7e7, #000000a9);
+    margin: 50px 0;
+    background-color: #f2f2f2; /* set the background color */
+    padding: 10px; /* add some padding for spacing */
+    border-radius: 10px; /* add rounded corners */
+}
+  
+
+
+
+  #table-of-contents {
+    margin: 0 auto; /* center the table of contents */
+    width: auto; /* adjust the width as desired */
+    background: linear-gradient(to bottom, #3d3d3d, #4e2727);
+    padding: 20px; /* add some padding for spacing */
+}  
+  
+  #table-of-contents h2 {
+    width: auto;
+    text-align: center; /* center the heading */
+    background-color: #000000; /* set the background color */
+    color: #fff; /* set the text color */
+    padding: 10px; /* add some padding for spacing */
+    border-radius: 0px; /* add rounded corners */
+  }
+  
+  #table-of-contents ul {
+    padding: 25px;
+
+    flex-wrap: wrap;
+    list-style: none; /* remove the default bullet points */
+    display: flex; /* display the list items horizontally */
+    justify-content: space-around; /* space out the list items */
+  }
+  
+  #table-of-contents li {
+
+    background-color: #d4caca;
+    padding: 16px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    width: calc(25.33% - 15px); /* adjust the width of each box to one-third of the container width */
+    margin-bottom: 20px; /* add margin to the bottom of each box for spacing */
+
+}
+  
+ 
+  .my-link {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: rgb(2, 2, 2);
+    text-decoration: none; /* remove the underline */
+ 
+}
+.my-link:hover {
+    color: rgb(3, 120, 253);
+  }
+  
+
+
+  
