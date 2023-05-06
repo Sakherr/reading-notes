@@ -5,4 +5,6 @@
 |  prep reading 2  | [Engineering Readings](Eng/README.md)
 |  class 1  | [Topic](class/README.md)
 |  class 2  | [Testing and Modules](reading-1/README.md)
+|  class 3  | [FileIO & Exceptions](FIO/README.md)
+
  
