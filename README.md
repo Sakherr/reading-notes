@@ -7,6 +7,6 @@
 |  class 2  | [Testing and Modules](reading-1/README.md)
 |  class 3  | [FileIO & Exceptions](FIO/README.md)
 |  class 4  | [Classes and Objects](obj/README.md)
-
+|  class 5 | [Linked Lists](list/README.md)
 
  
