@@ -8,6 +8,6 @@
 |  class 3  | [FileIO & Exceptions](FIO/README.md)
 |  class 4  | [Classes and Objects](obj/README.md)
 |  class 5 | [Linked Lists](list/README.md)
-|  class 6 | [en Thousand Game 1](RCS/README.md)
+|  class 6 | [Ten Thousand Game 1](RCS/README.md)
 
  
