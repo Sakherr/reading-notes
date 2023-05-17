@@ -1,0 +1,5 @@
+# Stacks and Queues are two of the most common data structures used in computer science. They are both linear data structures that store and retrieve elements in a sequential manner from the structure when required.
+
+## A stack is a collection of elements that supports two main operations: push and pop. The push operation adds an element to the top of the stack, while the pop operation removes the top element from the stack. Stacks follow the Last-In-First-Out (LIFO) principle, which means that the last element added to the stack is the first one to be removed.
+
+## A queue is also a collection of elements that supports two main operations: enqueue and dequeue. The enqueue operation adds an element to the back of the queue, while the dequeue operation removes an element from the front of the queue. Queues follow the First-In-First-Out (FIFO) principle, which means that the first element added to the queue is the first one to be removed.
