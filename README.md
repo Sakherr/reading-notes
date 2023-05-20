@@ -11,6 +11,8 @@
 |  class 6 | [Ten Thousand Game 1](RCS/README.md)
 |  class 7 | [Ten Thousand 2](LL/README.md)
 |  class 8 | [ Stacks and Queues](DSD/README.md)
+|  class 9 | [ Ten Thousand 3](Ten3/README.md)
+
 
 
 
