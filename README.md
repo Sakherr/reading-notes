@@ -12,6 +12,8 @@
 |  class 7 | [Ten Thousand 2](LL/README.md)
 |  class 8 | [ Stacks and Queues](DSD/README.md)
 |  class 9 | [ Ten Thousand 3](Ten3/README.md)
+|  class 10 | [  Ten Thousand 4](AI/README.md)
+
 
 
 
