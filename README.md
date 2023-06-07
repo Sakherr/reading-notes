@@ -17,6 +17,8 @@
 |  class 12 | [ Pandas ](num/README.md)
 |  class 13 | [ Linear Regressions](reg/README.md)
 |  class 14 | [  Data Visualization](ML/README.md)
+|  class 15 | [  Tree ](tree/README.md)
+
 
 
 
