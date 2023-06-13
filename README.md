@@ -19,6 +19,8 @@
 |  class 14 | [  Data Visualization](ML/README.md)
 |  class 15 | [  Tree ](tree/README.md)
 |  class 16 | [  Serverless Functions ](SF/README.md)
+|  class 17 | [  Web Scraping ](WS/README.md)
+
 
 
 
