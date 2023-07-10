@@ -20,7 +20,9 @@
 |  class 15 | [  Tree ](tree/README.md)
 |  class 16 | [  Serverless Functions ](SF/README.md)
 |  class 17 | [  Web Scraping ](WS/README.md)
-|  class 18 | [  intro to Django ](django/README.md)
+|  class 26 | [  intro to Django ](django/README.md)
+|  class 27 | [  Django Models ](Django-Models/README.md)
+
 
 
 
