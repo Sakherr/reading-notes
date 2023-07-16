@@ -22,6 +22,8 @@
 |  class 17 | [  Web Scraping ](WS/README.md)
 |  class 26 | [  intro to Django ](django/README.md)
 |  class 27 | [  Django Models ](Django-Models/README.md)
+|  class 28 | [  Django CRUD and Forms ](CRUD/README.md)
+
 
 
 
