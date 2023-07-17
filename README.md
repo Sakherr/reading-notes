@@ -23,6 +23,7 @@
 |  class 26 | [  intro to Django ](django/README.md)
 |  class 27 | [  Django Models ](Django-Models/README.md)
 |  class 28 | [  Django CRUD and Forms ](CRUD/README.md)
+|  class 29 | [  Django Custom User ](custom_user/README.md)
 
 
 
