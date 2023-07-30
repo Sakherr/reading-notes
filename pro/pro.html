@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Engineering Readings</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Reading Notes</h1>
+    </header>
+
+
+
+    <section id="table-of-contents">
+
+        <h2>Practice in the Terminal</h2>
+
+        <p>
+            <br>
+            What's the main purpose of JSON Web Tokens (JWTs) and how do they work?
+
+            JSON Web Tokens (JWTs) are a secure way of sharing information between two parties. They are compact and self-contained, transmitted as JSON objects. These tokens can be trusted because they are digitally signed.
+            
+            JWTs are commonly used for authentication and authorization. When a user logs in, the server creates a JWT containing the user's identity and permissions. The user sends this JWT in subsequent requests to access resources, and the server verifies it to authenticate and authorize the user.
+            
+            How does JWT Authentication work with Django REST Framework to secure API endpoints, and what are the key components involved?
+            
+            Django REST Framework (DRF) uses JWT authentication to secure API endpoints. The important components involved in this process are:
+            
+            The JWTAuthentication class: It verifies JWT tokens.
+            The JWTSerializer class: It handles serialization and deserialization of JWT tokens.
+            The settings.py file: Contains configuration settings for JWT authentication.
+            To use JWT authentication with DRF, follow these steps:
+            
+            Install the djangorestframework-simplejwt package.
+            Add the JWTAuthentication class to the REST_FRAMEWORK settings.
+            Use the JWTSerializer class to handle JWT tokens.
+            Why is Django's built-in runserver not suitable for production environments, and what are some alternative server options?
+            
+            Django's built-in runserver is not suitable for production environments because it isn't designed to handle high traffic or distributed setups. It's more suitable for development purposes. Some alternative server options for deploying a Django application are:
+            
+            Gunicorn: A high-performance Python WSGI server known for its scalability.
+            Nginx: A popular web server that can proxy requests to Gunicorn or other WSGI servers.
+            Docker: A containerization platform that ensures consistent and portable deployment of Django applica
+            <br>
+
+
+        </p>
+
+
+
+
+    </section>
+
+
+
+
+
+
+</body>
+
+</html>

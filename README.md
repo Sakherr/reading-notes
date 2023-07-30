@@ -26,6 +26,8 @@
 |  class 29 | [  Django Custom User ](custom_user/README.md)
 |  class 31 | [   Django REST Framework & Docker ](REST/README.md)
 |  class 31 | [   Permissions & Postgresql ](per_postsql/README.md)
+|  class 33 | [   Authentication & Production Server ](pro/README.md)
+
 
 
 
