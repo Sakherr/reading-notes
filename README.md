@@ -27,6 +27,7 @@
 |  class 31 | [   Django REST Framework & Docker ](REST/README.md)
 |  class 31 | [   Permissions & Postgresql ](per_postsql/README.md)
 |  class 33 | [   Authentication & Production Server ](pro/README.md)
+|  class 34 | [   API Deployment ](API/README.md)
 
 
 

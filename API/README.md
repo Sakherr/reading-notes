@@ -1,0 +1,55 @@
+Key principles for organizing and configuring Django settings
+
+I should keep settings in environment variables. This makes it easy to change settings without having to modify the code, and it also helps me keep sensitive settings secret.
+
+I should write default values for production configuration. This makes it easy to deploy my project to production without having to remember to set all of the settings.
+
+I shouldn't hardcode sensitive settings, and I should avoid putting them in VCS. This includes things like the secret key, database passwords, and API keys.
+
+I should split settings into groups. This will make it easier for me to find and understand the settings, and it will also help keep the settings file from getting too large.
+
+How White Noise helps me serve static files efficiently
+
+The White Noise library helps me serve static files efficiently by caching them in memory or on disk. This can significantly improve the performance of my application, especially for large static files.
+
+To integrate White Noise into my project, I can install the library and then add the following lines to my settings file:
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_MANIFEST_LOCATION = 'static/manifest.json'
+
+What is Cross-Origin Resource Sharing (CORS) and how can I implement it in Django
+
+Cross-Origin Resource Sharing (CORS) is a mechanism that allows web applications to make requests to resources from other domains. This is useful for things like embedding third-party content in my application or making AJAX requests to an API.
+
+To implement CORS in Django, I can use the corsheaders package. This package provides a middleware that automatically adds CORS headers to my responses.
+
+To install corsheaders:
+
+pip install corsheaders
+
+Then, I should add the following lines to my settings file:
+
+INSTALLED_APPS = [
+...
+'corsheaders',
+]
+
+MIDDLEWARE = [
+...
+'corsheaders.middleware.CorsMiddleware',
+]
+
+CORS_ORIGIN_ALLOW_ALL = True
+
+The CORS_ORIGIN_ALLOW_ALL setting tells Django to allow requests from any domain. If I only want to allow requests from specific domains, I can specify them in the CORS_ALLOWED_ORIGINS setting.
+
+How to control access to resources with CORS
+
+I can use the CORS_ALLOW_METHODS and CORS_ALLOW_HEADERS settings to control which methods and headers are allowed in CORS requests. For example, if I want to only allow GET requests and the Content-Type header, I can set the following settings:
+
+CORS_ALLOW_METHODS = ['GET']
+CORS_ALLOW_HEADERS = ['Content-Type']
+
+I can also use the CORS_EXPOSE_HEADERS setting to expose additional headers in the CORS response like this:
+
+CORS_EXPOSE_HEADERS = ['Cache-Control']
