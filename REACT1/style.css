@@ -1,0 +1,98 @@
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    font-family: "Georgia", serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fffdfd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+
+  p {
+    font-weight: bold;
+    text-align: left;
+    font-family:cursive;
+    font-size: 20px;
+    line-height: 2.5;
+    background: linear-gradient(to bottom, #ece7e7, #000000a9);
+    margin: 50px 0;
+    background-color: #f2f2f2; 
+    padding: 10px; 
+    border-radius: 10px; 
+}
+  
+
+
+
+  #table-of-contents {
+    margin: 0 auto; 
+    width: auto; 
+    background: linear-gradient(to bottom, #3d3d3d, #4e2727);
+    padding: 20px; 
+}  
+  
+  #table-of-contents h2 {
+    width: auto;
+    text-align: center; 
+    background-color: #000000; 
+    color: #fff; 
+    padding: 10px; 
+    border-radius: 0px; 
+  }
+  
+  #table-of-contents ul {
+    padding: 25px;
+
+    flex-wrap: wrap;
+    list-style: none;
+    display: flex; 
+    justify-content: space-around; 
+  }
+  
+  #table-of-contents li {
+
+    background-color: #d4caca;
+    padding: 16px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    width: calc(25.33% - 15px); 
+    margin-bottom: 20px; 
+
+}
+  
+ 
+  .my-link {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+ 
+}
+.my-link:hover {
+    color: rgb(3, 120, 253);
+  }
+  
+
+
+  
