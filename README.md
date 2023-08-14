@@ -31,6 +31,8 @@
 |  class 36 | [    DSA Review ](DSAA/README.md)
 |  class 37  | [    Graphs ](Graphs/README.md)
 |  class 38 | [    React 1 ](REACT1/README.md)
+|  class 39 | [    React 2 ](REACT2/README.md)
+
 
 
 
